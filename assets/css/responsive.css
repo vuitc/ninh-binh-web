@@ -1,0 +1,40 @@
+/* mobile tablet */
+@media (max-width:1024px){
+    .hide-on-mobile-tablet{
+        display: none;
+    }
+    .app{
+        height: 630px;
+    }
+    .app1{
+        padding-left: 16px;
+    }
+    .app2{
+        height: 936px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .top-sale{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+/* tablet */
+@media (min-width:740px) and (max-width:1023px){
+    .hide-on-tablet{
+        display: none;
+    }
+}
+/* mobile */
+@media (max-width:739px){
+    .hide-on-mobile{
+        display: none;
+    }
+    .app1{
+        height: 4600px;
+    }
+    .app2{
+        height: 100%;
+        min-height: 2600px;
+    }
+}
